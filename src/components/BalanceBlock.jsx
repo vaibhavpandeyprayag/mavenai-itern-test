@@ -1,3 +1,9 @@
+/*
+  This component shows the balance.
+  It is one of the 4 displays (balance, profits, losses, currencies)
+  It takes a number as props to show the balance.
+*/
+
 const BalanceBlock = ({ balanceValue }) => {
   return (
     <div>

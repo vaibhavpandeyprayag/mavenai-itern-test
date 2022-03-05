@@ -1,3 +1,8 @@
+/*
+  This component shows a particular item on Side Nav Bar.
+  It takes props - item name, item image (icon), className (for extra designing)
+*/
+
 const SideNavItem = ({ itemName, itemImage, className }) => {
   return (
     <a

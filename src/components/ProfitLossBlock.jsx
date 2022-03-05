@@ -1,3 +1,9 @@
+/*
+  This component shows profits/losses.
+  It takes props - revenueType (profit or loss), revenue value, revenue percentage.
+  If revenue percentage > 0, green upward indicator is shown with value in green, else red downward indication with value in red is shown.
+*/
+
 const ProfitLossBlock = ({ revenueType, revenueValue, revenuePercentage }) => {
   const heading =
     revenueType === "profit" ? "Profits" : "loss" ? "Losses" : undefined;

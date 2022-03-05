@@ -1,3 +1,9 @@
+/*
+  This component shows the rate of different countries using some value and rating graph.
+  It takes country name, rate value, graph image (used image just to complete the task; may use some library to plot the rating graph), and indication (up or down)
+  If the indication is up, then green upward arrow is shown, else red downward arrow is shown.
+*/
+
 const CountryRateMeter = ({ countryName, rateValue, indication, graph }) => {
   const indicator =
     indication === "up" ? (

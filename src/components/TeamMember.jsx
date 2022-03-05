@@ -1,3 +1,9 @@
+/*
+  This component shows the team member details.
+  It shows the avatar of member, member's name, and his/her rank.
+  It takes 3 props - member's name, member's avatar (image), member's rank.
+*/
+
 const TeamMember = ({ memberName, memberImage, memberRank }) => {
   const className =
     memberRank === "Top Trader"

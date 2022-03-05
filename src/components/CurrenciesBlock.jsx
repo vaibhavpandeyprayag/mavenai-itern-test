@@ -1,3 +1,8 @@
+/*
+  This component shows the different currencies being used.
+  For now, it shows thumbnails of 4 currencies.
+*/
+
 import bitcoinImg from "../resources/bitcoin-2.svg";
 import dollarImg from "../resources/currency-dollar.svg";
 import euroImg from "../resources/currency-euro.svg";

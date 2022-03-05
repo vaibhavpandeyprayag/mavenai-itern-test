@@ -1,3 +1,9 @@
+/*
+  This component shows the Side Navigation Bar.
+  It has 5 items - dashboard, analytics, trading, notifications and logout.
+  It is responsive in nature. For large screen it is on the left side, whereas for medium and small sized screen, it is situated at the top of page.
+*/
+
 import dashboardIcon from "../resources/metrics.svg";
 import analyticsIcon from "../resources/analytics.svg";
 import tradingIcon from "../resources/currency-exchange-2.svg";

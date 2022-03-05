@@ -1,3 +1,9 @@
+/*
+  This component shows comparison among different countries.
+  It takes country flag image, country name and rate percentage value as prop.
+  It compares different countries by plotting their percentage values on progress bar.
+*/
+
 const CountryComparisonBar = ({
   countryName,
   countryFlag,
