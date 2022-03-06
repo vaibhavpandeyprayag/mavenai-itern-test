@@ -17,7 +17,7 @@ import usaFlag from "./resources/usa.svg";
 import italyFlag from "./resources/italy.svg";
 import spainFlag from "./resources/spain.svg";
 
-function App() {
+function Dashboard() {
   return (
     <div className="d-flex flex-column flex-sm-column flex-md-column flex-lg-row justify-content-between ">
       <SideNavBar />
@@ -198,4 +198,4 @@ function App() {
   );
 }
 
-export default App;
+export default Dashboard;

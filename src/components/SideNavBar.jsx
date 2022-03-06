@@ -25,7 +25,7 @@ const SideNavBar = () => {
         <SideNavItem itemName={"Notifications"} itemImage={notificationsIcon} />
       </div>
 
-      <div>
+      <div className="d-flex flex-lg-column gap-lg-4 gap-2">
         <SideNavItem itemName={"Logout"} itemImage={logoutIcon} />
       </div>
     </div>
