@@ -106,6 +106,10 @@
   width: 50%;
 }
 
+.custom-width-4 {
+  width: 100%;
+}
+
 .custom-height-1 {
   height: 100vh;
 }
@@ -119,6 +123,12 @@
   }
   .custom-width-3 {
     width: 25%;
+  }
+  .custom-width-4 {
+    width: 100%;
+  }
+  .custom-height-1 {
+    height: 50vh;
   }
 }
 
@@ -134,6 +144,12 @@
   }
   .custom-width-3 {
     width: 25%;
+  }
+  .custom-width-4 {
+    width: 100%;
+  }
+  .custom-height-1 {
+    height: 50vh;
   }
 }
 
@@ -156,6 +172,12 @@
   }
   .custom-width-3 {
     width: 25%;
+  }
+  .custom-width-4 {
+    width: 50%;
+  }
+  .custom-height-1 {
+    height: 100vh;
   }
 }
 
@@ -181,6 +203,12 @@
   }
   .custom-width-3 {
     width: 50%;
+  }
+  .custom-width-4 {
+    width: 25%;
+  }
+  .custom-height-1 {
+    height: 100vh;
   }
 }
 /*# sourceMappingURL=customCSS.css.map */

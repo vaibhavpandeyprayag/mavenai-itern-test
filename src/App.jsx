@@ -1,45 +1,56 @@
-import { Link } from "react-router-dom";
+/*
+  This App function is just a dummy Login page. Enter any username and password to proceed.
+  
+*/
+
+import { Link, useNavigate } from "react-router-dom";
 import React, { useState } from "react";
 
 function App() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-
+  const navigate = useNavigate();
   return (
-    <div className="d-flex justify-content-center align-items-center custom-height-1">
-      <form className="w-25">
-        <div class="mb-3">
-          <label for="exampleInputUserName1" class="form-label">
-            Username
-          </label>
+    <div className="d-flex justify-content-center align-items-center w-100 custom-height-1">
+      <form
+        className="d-block custom-width-4 p-2"
+        onSubmit={(event) => {
+          event.preventDefault();
+          navigate("/dashboard");
+        }}
+      >
+        <div className="mb-3">
+          <label className="form-label">Username</label>
           <input
             type="userName"
-            class="form-control"
-            id="userNameInput1"
-            required
+            className="form-control"
             value={username}
-            onChange={(e) => setUsername(e.target.value)}
+            required
+            onChange={(e) => {
+              setUsername(e.target.value);
+              console.log(username, " ", password);
+            }}
           />
         </div>
-        <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">
-            Password
-          </label>
+        <div className="mb-3">
+          <label className="form-label">Password</label>
           <input
             type="password"
-            class="form-control"
-            id="exampleInputPassword1"
-            required
+            className="form-control"
             value={password}
-            onChange={(e) => setPassword(e.target.value)}
+            required
+            onChange={(e) => {
+              setPassword(e.target.value);
+              console.log(username, " ", password);
+            }}
           />
         </div>
         <button
           type="submit"
-          class="btn btn-primary"
+          className="btn btn-primary"
           disabled={!(username !== "" && password !== "")}
         >
-          <Link className="btn btn-primary" to={"/dashboard"}>
+          <Link className="text-white text-decoration-none" to={"/dashboard"}>
             Log In
           </Link>
         </button>
