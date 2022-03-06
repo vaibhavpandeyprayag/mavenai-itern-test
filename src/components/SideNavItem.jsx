@@ -7,7 +7,7 @@ const SideNavItem = ({ itemName, itemImage, className }) => {
   return (
     <a
       className={
-        "nav-link d-flex flex-column align-items-center justify-content-between px-lg-4 px-2 py-1 " +
+        "nav-link d-flex flex-column align-items-center justify-content-between px-lg-4 px-1 py-1 " +
         className
       }
       aria-current="page"

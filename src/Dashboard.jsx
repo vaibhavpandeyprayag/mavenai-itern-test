@@ -19,7 +19,7 @@ import spainFlag from "./resources/spain.svg";
 
 function Dashboard() {
   return (
-    <div className="d-flex flex-column flex-sm-column flex-md-column flex-lg-row justify-content-between ">
+    <div className="d-flex flex-column flex-sm-column flex-md-column flex-lg-row justify-content-between w-100">
       <SideNavBar />
       <div className="bg-light flex-grow-1 custom-padding-start-1 custom-padding-end-1 pt-5">
         <div className="d-flex flex-lg-row flex-md-row flex-sm-row flex-column justify-content-lg-between justify-content-md-between justify-content-sm-between gap-lg-0 gap-3">
